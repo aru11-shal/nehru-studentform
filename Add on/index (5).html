@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        h1,h2{
+            text-align: center;
+            background-color: rgb(5, 218, 255);
+            font-style: italic;
+        }
+        body{
+            text-align: center;
+            padding: 5px;
+            background-color: rgb(253, 253, 253);
+            margin: auto;       
+        }
+        input,select,button{
+            width: 240px;
+        }
+        button{
+            background-color: rgb(147, 226, 43);
+            color: rgb(0, 0, 0);
+        }       
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>NEHRU COLLEGE OF ARTS AND SCIENCE </h1>
+    <h2> REGISTRATION FORM </h2>
+    <div>
+        <form>
+            <input type="text" placeholder="Enter Your Name" id="name"><br><br>
+            <input type="date" name="" id="dob"><br><br>
+            <select name="" id="dept"><br><br>
+                <option value="Computer Science">CS</option>
+                <option value="Information Technology">IT</option>
+                <option value="Data Science">DS</option>
+                <option value="Computer Technology">CT</option>
+            </select><br><br>
+            <button onclick="submitData()">Submit</button>
+        </form>
+    </div>
+    <p> </p>
+    <script src="script.js"></script>
+    
+</body>
+</html> 
